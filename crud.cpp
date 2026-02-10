@@ -33,39 +33,32 @@ void cancella(int v[], int d){
 }
 
 int main(int argc, char** argv) {
-	
-	do{
-		int v[];
+	int v[10];
 		int dim=0, n=0;
 		int opzione;
-		cout<<"1 - inserimento\n 2 - visualizzazione\n 3 - modifica\n 4 - cancellazione\n";
+	do{
+
+		cout<<"1 - inserimento \n2 - visualizzazione \n3 - modifica \n4 - cancellazione \n5 - cerca\n";
 		cout<<"inserisci l'opzione: ";
 		cin>>opzione;
 		
-		switch(opzione):
+		switch(opzione){
 			case 1: 
 			//inserimento
+			break;
 			case 2:
 			//visualizzazione
-			case 3: 
+			break;
+			case 3:
 			//modifica
+			break;
 			case 4:
-			//cancellazione			
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+			//cencellazione
+			break;
+			case 5:
+			//cerca
+			break;
+		}
+	
 	}while(opzione!=0);
 }
