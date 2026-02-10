@@ -33,11 +33,10 @@ void cancella(int v[], int d){
 }
 
 int main(int argc, char** argv) {
-	int v[10];
-		int dim=0, n=0;
-		int opzione;
+	int v[];
+	int dim=0, n=0;
+	int opzione;
 	do{
-
 		cout<<"1 - inserimento \n2 - visualizzazione \n3 - modifica \n4 - cancellazione \n5 - cerca\n";
 		cout<<"inserisci l'opzione: ";
 		cin>>opzione;
@@ -62,3 +61,4 @@ int main(int argc, char** argv) {
 	
 	}while(opzione!=0);
 }
+
